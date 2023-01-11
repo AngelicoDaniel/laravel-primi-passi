@@ -7,6 +7,19 @@
     <title>Home</title>
 </head>
 <body>
-    <h1>Home</h1>
+    <h1>Hello {{ $name }}</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/about">About</a>
+            </li>            
+            <li>
+                <a href="/blog/articles">Articles</a>
+            </li>
+        </ul>
+    </nav>
 </body>
 </html>
